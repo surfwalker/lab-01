@@ -1,0 +1,69 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cell {
+  border: 1px solid black;
+}
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+#a {
+  background: red;
+  width: 100%;
+  height: 100px;
+}
+
+#b {
+  background: yellow;
+}
+
+#c {
+  background: blue;
+}
+
+#d {
+  background: green;
+}
+
+#e {
+  background: gold;
+}
+
+#f {
+  background: pink;
+}
+
+#g {
+  background: brown;
+}
+
+#h {
+  background: deeppink;
+}
+
+#i {
+  background: purple;
+}
+
+.cell:hover {
+  background: gray!important;
+}
+
+@media(min-width: 768px) {
+  .cell {
+    height: 200px;
+    width: 50%;
+    float: left;
+  }
+  
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
