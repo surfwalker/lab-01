@@ -6,6 +6,7 @@
 
 .cell {
   border: 1px solid black;
+  float: left;
 }
 
 .container {
@@ -16,39 +17,55 @@
 #a {
   background: red;
   width: 100%;
-  height: 100px;
+  height: 75px;
 }
 
 #b {
   background: yellow;
+  width: 100%;
+  height: 150px;
 }
 
 #c {
   background: blue;
+  width: 100%;
+  height: 125px;
 }
 
 #d {
-  background: green;
+  background: gold;
+  width: 100%;
+  height: 125px;
 }
 
 #e {
-  background: gold;
+  background: deeppink;
+  width: 50%;
+  height: 250px;
 }
 
 #f {
   background: pink;
+  width: 50%;
+  height: 250px;
 }
 
 #g {
   background: brown;
+  width: 50%;
+  height: 250px;
 }
 
 #h {
-  background: deeppink;
+  background: green;
+  width: 50%;
+  height: 250px;
 }
 
 #i {
   background: purple;
+  width: 100%;
+  height: 80px;
 }
 
 .cell:hover {
@@ -57,13 +74,65 @@
 
 @media(min-width: 768px) {
   .cell {
-    height: 200px;
-    width: 50%;
     float: left;
   }
   
   .container {
-    width: 600px;
+    width: 960px;
     margin: 0 auto;
+  }
+
+  #a {
+    background: red;
+    width: 100%;
+    height: 100px;
+  }
+  
+  #b {
+    background: yellow;
+    width: 20.84%;
+    height: 600px;
+  }
+  
+  #c {
+    background: blue;
+    width: 39.58%;
+    height: 200px;
+  }
+  
+  #d {
+    background: gold;
+    width: 39.58%;
+    height: 200px;
+  }
+  
+  #e {
+    background: green;
+    width: 19.79%;
+    height: 250px;
+  }
+  
+  #f {
+    background: pink;
+    width: 19.79%;
+    height: 250px;
+  }
+  
+  #g {
+    background: brown;
+    width: 19.79%;
+    height: 250px;
+  }
+  
+  #h {
+    background: deeppink;
+    width: 19.79%;
+    height: 250px;
+  }
+  
+  #i {
+    background: purple;
+    width: 79.16%;
+    height: 150px;
   }
 }
