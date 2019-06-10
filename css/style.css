@@ -6,12 +6,13 @@
 
 .cell {
   border: 1px solid black;
-  float: left;
+  display: grid;
 }
 
 .container {
   width: 480px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #a {
